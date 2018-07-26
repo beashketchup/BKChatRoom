@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5A6D2D1E71364D0057E744 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5A6D2C1E71364D0057E744 /* MessageViewController.swift */; };
+		AE629FE51E6EB77F0017CFFC /* BKChatWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE629FE41E6EB77F0017CFFC /* BKChatWrapper.swift */; };
+		AE6712B01E6EAA1C00916DC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6712AF1E6EAA1C00916DC3 /* AppDelegate.swift */; };
+		AE6712B21E6EAA1C00916DC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6712B11E6EAA1C00916DC3 /* ViewController.swift */; };
+		AE6712B71E6EAA1C00916DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6712B61E6EAA1C00916DC3 /* Assets.xcassets */; };
+		AE6712BA1E6EAA1C00916DC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6712B81E6EAA1C00916DC3 /* LaunchScreen.storyboard */; };
+		AE6712C41E6EACF100916DC3 /* RoomUserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6712C31E6EACF000916DC3 /* RoomUserList.swift */; };
+		AEBBD7161E725C7F00AB8A89 /* BKDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD7151E725C7F00AB8A89 /* BKDefine.swift */; };
+		AEBBD71F1E72744200AB8A89 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBD71E1E72744200AB8A89 /* Reachability.swift */; };
+		AEE43F761E6EB7D50058F050 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE43F691E6EB7C90058F050 /* SocketIO.framework */; };
+		AEE43F781E6EB7DC0058F050 /* SocketIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AEE43F691E6EB7C90058F050 /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEE43F801E7126E20058F050 /* BKChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE43F7F1E7126E20058F050 /* BKChatManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEE43F681E6EB7C90058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 572EF2191B51F16C00EEBB58;
+			remoteInfo = "SocketIO-iOS";
+		};
+		AEE43F6A1E6EB7C90058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 572EF2241B51F16C00EEBB58;
+			remoteInfo = "SocketIO-iOSTests";
+		};
+		AEE43F6C1E6EB7C90058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 572EF2381B51F18A00EEBB58;
+			remoteInfo = "SocketIO-Mac";
+		};
+		AEE43F6E1E6EB7C90058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 572EF2421B51F18A00EEBB58;
+			remoteInfo = "SocketIO-MacTests";
+		};
+		AEE43F701E6EB7C90058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57634A161BD9B46A00E19CD7;
+			remoteInfo = "SocketIO-tvOS";
+		};
+		AEE43F721E6EB7C90058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57634A3B1BD9B46D00E19CD7;
+			remoteInfo = "SocketIO-tvOSTests";
+		};
+		AEE43F741E6EB7D10058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 572EF2181B51F16C00EEBB58;
+			remoteInfo = "SocketIO-iOS";
+		};
+		AEE43F791E6EB7DC0058F050 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 572EF2181B51F16C00EEBB58;
+			remoteInfo = "SocketIO-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEE43F7B1E6EB7DC0058F050 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AEE43F781E6EB7DC0058F050 /* SocketIO.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AE5A6D2C1E71364D0057E744 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		AE629FE41E6EB77F0017CFFC /* BKChatWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BKChatWrapper.swift; path = ChatCore/BKChatWrapper.swift; sourceTree = "<group>"; };
+		AE6712AC1E6EAA1C00916DC3 /* BKChatRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKChatRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6712AF1E6EAA1C00916DC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE6712B11E6EAA1C00916DC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE6712B61E6EAA1C00916DC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE6712B91E6EAA1C00916DC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE6712BB1E6EAA1C00916DC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6712C31E6EACF000916DC3 /* RoomUserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomUserList.swift; sourceTree = "<group>"; };
+		AEBBD7151E725C7F00AB8A89 /* BKDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BKDefine.swift; path = ChatCore/BKDefine.swift; sourceTree = "<group>"; };
+		AEBBD71E1E72744200AB8A89 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = ChatCore/Reachability.swift; sourceTree = "<group>"; };
+		AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Socket.IO-Client-Swift.xcodeproj"; path = "ChatCore/Core/socket.io/Socket.IO-Client-Swift.xcodeproj"; sourceTree = "<group>"; };
+		AEE43F7F1E7126E20058F050 /* BKChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BKChatManager.swift; path = ChatCore/BKChatManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6712A91E6EAA1C00916DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE43F761E6EB7D50058F050 /* SocketIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE629FE31E6EB7690017CFFC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AE6712A31E6EAA1C00916DC3 = {
+			isa = PBXGroup;
+			children = (
+				AE6712AE1E6EAA1C00916DC3 /* BKChatRoom */,
+				AE6712AD1E6EAA1C00916DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE6712AD1E6EAA1C00916DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE6712AC1E6EAA1C00916DC3 /* BKChatRoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE6712AE1E6EAA1C00916DC3 /* BKChatRoom */ = {
+			isa = PBXGroup;
+			children = (
+				AE6712AF1E6EAA1C00916DC3 /* AppDelegate.swift */,
+				AE6712B11E6EAA1C00916DC3 /* ViewController.swift */,
+				AE6712C31E6EACF000916DC3 /* RoomUserList.swift */,
+				AE5A6D2C1E71364D0057E744 /* MessageViewController.swift */,
+				AE6712C51E6EB6C700916DC3 /* ChatCore */,
+				AE6712B61E6EAA1C00916DC3 /* Assets.xcassets */,
+				AE6712B81E6EAA1C00916DC3 /* LaunchScreen.storyboard */,
+				AE6712BB1E6EAA1C00916DC3 /* Info.plist */,
+			);
+			path = BKChatRoom;
+			sourceTree = "<group>";
+		};
+		AE6712C51E6EB6C700916DC3 /* ChatCore */ = {
+			isa = PBXGroup;
+			children = (
+				AE629FE41E6EB77F0017CFFC /* BKChatWrapper.swift */,
+				AEE43F7F1E7126E20058F050 /* BKChatManager.swift */,
+				AEBBD7151E725C7F00AB8A89 /* BKDefine.swift */,
+				AEBBD71E1E72744200AB8A89 /* Reachability.swift */,
+				AE629FE31E6EB7690017CFFC /* Core */,
+			);
+			name = ChatCore;
+			sourceTree = "<group>";
+		};
+		AEE43F601E6EB7C90058F050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE43F691E6EB7C90058F050 /* SocketIO.framework */,
+				AEE43F6B1E6EB7C90058F050 /* SocketIO-iOSTests.xctest */,
+				AEE43F6D1E6EB7C90058F050 /* SocketIO.framework */,
+				AEE43F6F1E6EB7C90058F050 /* SocketIO-MacTests.xctest */,
+				AEE43F711E6EB7C90058F050 /* SocketIO.framework */,
+				AEE43F731E6EB7C90058F050 /* SocketIO-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE6712AB1E6EAA1C00916DC3 /* BKChatRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE6712BE1E6EAA1C00916DC3 /* Build configuration list for PBXNativeTarget "BKChatRoom" */;
+			buildPhases = (
+				AE6712A81E6EAA1C00916DC3 /* Sources */,
+				AE6712A91E6EAA1C00916DC3 /* Frameworks */,
+				AE6712AA1E6EAA1C00916DC3 /* Resources */,
+				AEE43F7B1E6EB7DC0058F050 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEE43F751E6EB7D10058F050 /* PBXTargetDependency */,
+				AEE43F7A1E6EB7DC0058F050 /* PBXTargetDependency */,
+			);
+			name = BKChatRoom;
+			productName = BKChatRoom;
+			productReference = AE6712AC1E6EAA1C00916DC3 /* BKChatRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE6712A41E6EAA1C00916DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ashish;
+				TargetAttributes = {
+					AE6712AB1E6EAA1C00916DC3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MN3YK3K93G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE6712A71E6EAA1C00916DC3 /* Build configuration list for PBXProject "BKChatRoom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE6712A31E6EAA1C00916DC3;
+			productRefGroup = AE6712AD1E6EAA1C00916DC3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AEE43F601E6EB7C90058F050 /* Products */;
+					ProjectRef = AEE43F5F1E6EB7C90058F050 /* Socket.IO-Client-Swift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				AE6712AB1E6EAA1C00916DC3 /* BKChatRoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AEE43F691E6EB7C90058F050 /* SocketIO.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketIO.framework;
+			remoteRef = AEE43F681E6EB7C90058F050 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE43F6B1E6EB7C90058F050 /* SocketIO-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SocketIO-iOSTests.xctest";
+			remoteRef = AEE43F6A1E6EB7C90058F050 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE43F6D1E6EB7C90058F050 /* SocketIO.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketIO.framework;
+			remoteRef = AEE43F6C1E6EB7C90058F050 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE43F6F1E6EB7C90058F050 /* SocketIO-MacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SocketIO-MacTests.xctest";
+			remoteRef = AEE43F6E1E6EB7C90058F050 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE43F711E6EB7C90058F050 /* SocketIO.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketIO.framework;
+			remoteRef = AEE43F701E6EB7C90058F050 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AEE43F731E6EB7C90058F050 /* SocketIO-tvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SocketIO-tvOSTests.xctest";
+			remoteRef = AEE43F721E6EB7C90058F050 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE6712AA1E6EAA1C00916DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6712BA1E6EAA1C00916DC3 /* LaunchScreen.storyboard in Resources */,
+				AE6712B71E6EAA1C00916DC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE6712A81E6EAA1C00916DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEBBD7161E725C7F00AB8A89 /* BKDefine.swift in Sources */,
+				AE629FE51E6EB77F0017CFFC /* BKChatWrapper.swift in Sources */,
+				AEE43F801E7126E20058F050 /* BKChatManager.swift in Sources */,
+				AE6712B21E6EAA1C00916DC3 /* ViewController.swift in Sources */,
+				AE6712C41E6EACF100916DC3 /* RoomUserList.swift in Sources */,
+				AE5A6D2D1E71364D0057E744 /* MessageViewController.swift in Sources */,
+				AEBBD71F1E72744200AB8A89 /* Reachability.swift in Sources */,
+				AE6712B01E6EAA1C00916DC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEE43F751E6EB7D10058F050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SocketIO-iOS";
+			targetProxy = AEE43F741E6EB7D10058F050 /* PBXContainerItemProxy */;
+		};
+		AEE43F7A1E6EB7DC0058F050 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SocketIO-iOS";
+			targetProxy = AEE43F791E6EB7DC0058F050 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE6712B81E6EAA1C00916DC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6712B91E6EAA1C00916DC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE6712BC1E6EAA1C00916DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE6712BD1E6EAA1C00916DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6712BF1E6EAA1C00916DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MN3YK3K93G;
+				INFOPLIST_FILE = BKChatRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ash.BKChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE6712C01E6EAA1C00916DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MN3YK3K93G;
+				INFOPLIST_FILE = BKChatRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ash.BKChatRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE6712A71E6EAA1C00916DC3 /* Build configuration list for PBXProject "BKChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6712BC1E6EAA1C00916DC3 /* Debug */,
+				AE6712BD1E6EAA1C00916DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE6712BE1E6EAA1C00916DC3 /* Build configuration list for PBXNativeTarget "BKChatRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6712BF1E6EAA1C00916DC3 /* Debug */,
+				AE6712C01E6EAA1C00916DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE6712A41E6EAA1C00916DC3 /* Project object */;
+}
